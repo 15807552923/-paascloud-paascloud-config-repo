@@ -12,9 +12,9 @@ spring:
 zipkin:
   collector:
     rabbitmq:
-      addresses: 192.168.133.132:5672
-      username: guest
-      password: guest
+      addresses: paascloud-mq-rabbit:5672
+      username: admin
+      password: cxy888
       queue: zipkin
   storage:
     type: mysql

@@ -16,10 +16,10 @@ spring:
     host: paascloud-mq-rabbit
     port: 5672
     username: admin
-    password: cxy888
+    password: SPT888spt
   redis:
     host: paascloud-db-redis
-    #password: paascloud@redis
+    password: cxy888
     port: 6379
     timeout: 0
   datasource:
